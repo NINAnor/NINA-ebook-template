@@ -1,5 +1,5 @@
-# quarto-book-template
-Template repository for creating a book powered by Quarto and Rendered by GitHub Actions onto GitHub Pages
+# NINA-ebook-template
+Template repository for creating a NINA-themed book powered by Quarto and Rendered by GitHub Actions onto GitHub Pages
 
 ## Overview
 
