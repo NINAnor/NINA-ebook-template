@@ -7,7 +7,6 @@ book:
   author: "Kari Nordmann"
   description: | 
     Add some description here if you like.
-  cover-image: images/NINA_logo_sort_txt_engelsk_under.png
   repo-url: https://github.com/NINAnor/NINA-ebook-template
   repo-branch: main
   repo-actions: [edit]
@@ -29,3 +28,4 @@ format:
     code-link: true
 
 bibliography: references.bib
+csl: NINArefStyle.csl
