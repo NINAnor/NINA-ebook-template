@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Title of Next Bestseller",
+    "title": "This is the title",
     "section": "",
     "text": "Welcome\nWelcome splash page! Provide an overview of the book.\nSample evaluation of R and Python in a side-by-side manner:",
     "crumbs": [
@@ -12,9 +12,19 @@
   {
     "objectID": "index.html#welcome",
     "href": "index.html#welcome",
-    "title": "Title of Next Bestseller",
+    "title": "This is the title",
     "section": "",
     "text": "my_list = list(1, 2, 3)\ntypeof(my_list)\nmy_list = [1, 2, 3]\ntype(my_list)\n\n\n\nR\n\n[1] \"list\"\n\n\n\nPython\n\n&lt;class 'list'&gt;",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#figures-and-cross-referencing",
+    "href": "index.html#figures-and-cross-referencing",
+    "title": "This is the title",
+    "section": "Figures and cross referencing",
+    "text": "Figures and cross referencing\nYou can cross reference figures and tables easily. See for example Figure This is a figure caption. You can also cross reference chapters, for example like this.\n\n\n\n\n\n\n\n\nFigure 1: This is a figure caption\n\n\n\n\n\nFor adding reference, quarto work great with Zotero. If you are in RStudio, just type \\@ and you will be able to search your Zotero library. When you add a reference, it will automatically be added to the references.bib file. Here’s a reference to a paper (Arvesen et al. 2018).\nFor general Quarto help, see here.\n\nReferences\n\n\n\n\nArvesen, Anders, Francesco Cherubini, Gonzalo del Alamo Serrano, Rasmus Astrup, Michael Becidan, Helmer Belbo, Franziska Goile, et al. 2018. “Cooling Aerosols and Changes in Albedo Counteract Warming from CO 2 and Black Carbon from Forest Bioenergy in Norway.” Scientific Reports 8 (September 2017): 1–13. https://doi.org/10.1038/s41598-018-21559-8.",
     "crumbs": [
       "Welcome"
     ]
