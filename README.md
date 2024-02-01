@@ -1,4 +1,4 @@
-# NINA-ebook-template
+# NINA ebook template
 Template repository for creating a NINA-themed book powered by Quarto and Rendered by GitHub Actions onto GitHub Pages.
 The template has borrowed heavily from Jens Åstrøm work on the [Quarto template for NINA reports](https://github.com/NINAnor/quarto_nina_report).
 
