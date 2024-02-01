@@ -24,18 +24,4 @@ type(my_list)
 ```
 :::
 
-## Figures and cross referencing
-
-You can cross reference figures and tables easily. See for example @fig-myPlot. You can also cross reference chapters, for example like [this](#sec-hello-world).
-
-```{r fig-myPlot}
-#| fig-cap: "This is a figure caption"
-#| echo: false
-plot(cars)
-```
-
-For adding reference, quarto work great with Zotero. If you are in RStudio, just type \\@ and you will be able to search your Zotero library. When you add a reference, it will automatically be added to the `references.bib` file. Here's a reference to a paper [@arvesen2018].
-
-For general Quarto help, see [here](#0){style="font-size: 11pt;"}.
-
-#### References  {.unnumbered}
+See [Chapter 1](#sec-hello-world) for how to plot and cross reference figures. We cannot make cross referanceble objects on this page, because it is an *unnumbered* page, and you can't cross reference to things in unnumbered pages.
