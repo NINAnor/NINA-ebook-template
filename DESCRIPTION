@@ -1,9 +1,9 @@
 Package: mybook
-Title: Name of Course Textbook
+Title: Name of Book
 Version: 0.1.0
-Authors@R: c(person("James Joseph", "Balamuta", "balamut2@illinois.edu", c("aut", "cre", "cph")))
+Authors@R: c(person("Kari", "Nordman", "kari.nordmann@online.no", c("aut", "cre", "cph")))
 Depends: R (>= 4.0)
-URL: https://github.com/coatless-tutorials/quarto-book-template
+URL: https://github.com/NINAnor/NINA-ebook-template/
 Imports:
   rmarkdown,
   reticulate
