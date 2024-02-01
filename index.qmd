@@ -1,4 +1,6 @@
-
+---
+bibliography: references.bib
+---
 
 ## Welcome {.unnumbered}
 
@@ -6,7 +8,7 @@ Welcome splash page! Provide an overview of the book.
 
 Sample evaluation of R and Python in a side-by-side manner:
 
-::: {layout-ncol=2}
+::: {layout-ncol="2"}
 #### R
 
 ```{r}
@@ -21,3 +23,19 @@ my_list = [1, 2, 3]
 type(my_list)
 ```
 :::
+
+## Figures and cross referencing
+
+You can cross reference figures and tables easily. See for example @fig-myPlot. You can also cross reference chapters, for example like [this](#sec-hello-world).
+
+```{r fig-myPlot}
+#| fig-cap: "This is a figure caption"
+#| echo: false
+plot(cars)
+```
+
+For adding reference, quarto work great with Zotero. If you are in RStudio, just type \\@ and you will be able to search your Zotero library. When you add a reference, it will automatically be added to the `references.bib` file. Here's a reference to a paper [@arvesen2018].
+
+For general Quarto help, see [here](#0){style="font-size: 11pt;"}.
+
+#### References  {.unnumbered}
