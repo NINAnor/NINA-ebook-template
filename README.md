@@ -1,6 +1,7 @@
 # NINA ebook template
 Template repository for creating a NINA-themed book powered by Quarto and Rendered by GitHub Actions onto GitHub Pages.
-The template has borrowed heavily from Jens Åstrøm work on the [Quarto template for NINA reports](https://github.com/NINAnor/quarto_nina_report).
+The template has borrowed heavily from Jens Åström's work on the [Quarto template for NINA reports](https://github.com/NINAnor/quarto_nina_report).
+Also a thanks to Niccolò Cantù for the scss file with the NINA color scheme.
 
 Note: When clicking 'Use this template', remember to copy all branches, to include the GH-pgaes branch. If you forget this, see the inforamtin at the bottom of this page for how to initiate GitHub actions. 
 
