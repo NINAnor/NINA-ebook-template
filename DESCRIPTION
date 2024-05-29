@@ -6,4 +6,10 @@ Depends: R (>= 4.0)
 URL: https://github.com/NINAnor/NINA-ebook-template/
 Imports:
   rmarkdown,
-  reticulate
+  reticulate, 
+  tidyverse,
+  DiagrammeR,
+  DiagrammeRsvg,
+  rsvg,
+  downlit,
+  xml2
