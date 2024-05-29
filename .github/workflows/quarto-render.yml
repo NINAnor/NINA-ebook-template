@@ -16,6 +16,8 @@ jobs:
       # Obtain a copy of the repository on the runner
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
 
       # Install Quarto
       - name: Set up Quarto
@@ -54,5 +56,5 @@ jobs:
         with:
           target: gh-pages
         env:
-          GITHUB_PAT: ${{ secrets.GH_PAT }}
+          GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
 
