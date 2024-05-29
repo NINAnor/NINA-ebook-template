@@ -13,7 +13,7 @@ jobs:
     permissions:
       contents: write
     env:
-      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      GITHUB_PAT: ${{ secrets.GH_PAT }}
     steps:
       # Step 1: Check out the repository, obtain a copy of the repository on the runner
       - name: Check out repository
