@@ -1,9 +1,9 @@
 # NINA ebook template
-Template repository for creating a NINA-themed book powered by Quarto and Rendered by GitHub Actions onto GitHub Pages.
+Template repository for creating a NINA-themed book powered by Quarto and rendered by GitHub Actions onto GitHub Pages.
 The template has borrowed heavily from Jens Åström's work on the [Quarto template for NINA reports](https://github.com/NINAnor/quarto_nina_report).
-Also a thanks to Niccolò Cantù for the scss file with the NINA color scheme.
+Also, thanks to Niccolò Cantù for the SCSS file with the NINA color scheme.
 
-Note: When clicking 'Use this template', remember to copy all branches, to include the GH-pgaes branch. If you forget this, see the inforamtin at the bottom of this page for how to initiate GitHub actions. 
+Note: When clicking 'Use this template', remember to copy all branches, to include the GH-pages branch. If you forget this, see the information at the bottom of this page for how to initiate GitHub actions. 
 
 ## Overview
 
@@ -15,8 +15,8 @@ The repository holds:
 
 Additional files:
 
-- [`requirements.txt`](requirements.txt): List of Python Packages to install
-- [`DESCRIPTION`](DESCRIPTION): List of R Packages using the standard DESCRIPTION file to install with `pak`.
+- [`requirements.txt`](requirements.txt): List of Python packages to install
+- [`DESCRIPTION`](DESCRIPTION): List of R packages using the standard DESCRIPTION file to install with `pak`.
 
 ## Publishing with GitHub Actions
 
