@@ -26,5 +26,7 @@ vignettes/*.pdf
 *.knit.md
 # R Environment Variables
 .Renviron
-/.quarto/
 NINA-ebook-template.Rproj
+# Quarto
+/_book/
+/.quarto/
